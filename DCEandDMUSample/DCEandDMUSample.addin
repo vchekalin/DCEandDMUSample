@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>ElevationWatcher - DCE</Text>
+    <Description>Some description for DCEandDMUSample</Description>
+    <Assembly>DCEandDMUSample.dll</Assembly>
+    <FullClassName>DCEandDMUSample.CmdElevationWatcher</FullClassName>
+    <ClientId>8b4467ec-dd0f-4b13-8ab3-f6c6b6e119e9</ClientId>
+    <VendorId>VC</VendorId>    
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>ElevationWatcher - DMU</Text>
+    <Description>Some description for DCEandDMUSample</Description>
+    <Assembly>DCEandDMUSample.dll</Assembly>
+    <FullClassName>DCEandDMUSample.CmdElevationWatcherUpdater</FullClassName>
+    <ClientId>8b4467ec-dd0f-4b13-8ab3-f6c6b6e119e8</ClientId>
+    <VendorId>VC</VendorId>
+  </AddIn>
+
+</RevitAddIns>
